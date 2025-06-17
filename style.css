@@ -1,0 +1,49 @@
+/* resetting rules */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f0e2c5;
+}
+img {
+  width: 100px;
+}
+
+/* header section */
+#header {
+  text-align: center;
+  border: 2px solid black;
+  padding: 50px 0;
+}
+#header h1 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+}
+#header p {
+  font-family: "Lato", sans-serif;
+  margin: 20px;
+  color: #49281a;
+}
+#header button {
+  width: 200px;
+  height: 40px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+/* navation section */
+nav {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px o;
+}
+nav a {
+  font-family: "Lato", sans-serif;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 8px;
+}
