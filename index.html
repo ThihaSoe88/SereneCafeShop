@@ -11,6 +11,68 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Serene Sip Cafe</title>
+    <style>
+     #menulist1{
+      border: 2px solid black;
+      width: 1500px;
+      height: 500px;
+      padding: 30px 0px;
+     }
+     #menulist2{
+      border: 2px solid black;
+      width: 1500px;
+      height: 500px;
+      padding: 30px 0px;
+     }
+     .coffeeselection{
+      padding: 5px 0px;
+     }
+      .deliciousSnacks{
+      padding: 5px 0px;
+     }
+     .card{
+      border: 2px solid black;
+      width: 375px;
+      height: 400px;
+
+      margin:5px;
+      border-radius: 10px;
+     }
+     .card-img-top{
+      max-width: 100%;
+      max-height: 100%;
+  
+    
+     }
+     .card-body{
+      text-align: center;
+      padding: 10px;
+     }
+      .card-body .card-title {
+        padding: 10px 0;
+      }
+      .card-body .card-text {
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+
+      .price {
+        font-weight: bold;
+        font-style: italic;
+      }
+      .btn{
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: burlywood;
+        cursor: pointer;
+
+      }
+
+
+
+    </style>
   </head>
 
   <body>
@@ -35,80 +97,115 @@
 
       <!--Menu List 1-->
       <div id="menulist1">
-        <h3>Coffee Selection</h3>
-        <div>
-          <img src="images/latte.jpg" alt="Latte" />
-          <h4>Latte</h4>
-          <p>
-            Strong and black coffee. Perfect for the bold coffee enthusiast.
-          </p>
-          <p>$2.50</p>
-          <input type="submit" value="Order" />
+        <h3 class="coffeeselection">Coffee Selection</h3>
+        <div class="card">
+          <img src="images/latte.jpg" alt="Latte" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Latte</h4>
+            <p class="card-text">
+              Strong and black coffee.<br />
+              Perfect for the bold coffee enthusiast.<br />
+
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
-        <div>
-          <img src="images/mocha.jpg" alt="Mocha" />
-          <h4>Mocha</h4>
-          <p>
-            Strong and black coffee. Perfect for the bold coffee enthusiast.
-          </p>
-          <p>$2.50</p>
-          <input type="submit" value="Order" />
+        <div class="card">
+          <img src="images/mocha.jpg" alt="Mocha" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Mocha</h4>
+            <p class="card-text">
+              Strong and black coffee.<br />
+              Perfect for the bold coffee enthusiast.<br />
+
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
-        <div>
-          <img src="images/americano.jpg" alt="Americano" />
-          <h4>Americano</h4>
-          <p>
-            Strong and black coffee. Perfect for the bold coffee enthusiast.
-          </p>
-          <p>$2.50</p>
-          <input type="submit" value="Order" />
+        <div class="card">
+          <img src="images/americano.jpg" alt="Americano" class="card-img-top"/>
+          <div class="card-body">
+            <h4 class="card-title">Americano</h4>
+            <p class="card-text">
+              Strong and black coffee.<br />
+              Perfect for the bold coffee enthusiast.<br />
+
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
-        <div>
-          <img src="images/Hot-Chocolate.jpg" alt="Hot Chocolate" />
-          <h4>Hot Chocolate</h4>
-          <p>
-            Strong and black coffee. Perfect for the bold coffee enthusiast.
-          </p>
-          <p>$2.50</p>
-          <input type="submit" value="Order" />
+        <div class="card">
+          <img src="images/Hot-Chocolate.jpg" alt="Hot Chocolate" class="card-img-top"/>
+          <div class="card-body">
+            <h4 class="card-title">Hot Chocolate</h4>
+            <p class="card-text">
+              Strong and black coffee.<br />
+              Perfect for the bold coffee enthusiast.<br />
+
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
-      </div>
 
       <!-- Menu List 2 -->
       <div id="menulist2">
-        <h3>Delicious Snacks</h3>
-        <div>
-          <img src="images/chocolateLavaCake.jpeg" alt="Choclate Lava Cake" />
-          <h4>Choclate Lava Cake</h4>
-          <p>- Light, flaky, and buttery. A timeless delight.</p>
-          <p>$2.50</p>
-          <input type="submit" value="Order" />
+        <h3 class="deliciousSnacks">Delicious Snacks</h3>
+        <div class="card">
+          <img src="images/chocolateLavaCake.jpeg" alt="Choclate Lava Cake" class="card-img-top"/>
+           <div class="card-body">
+            <h4 class="card-title">Chocolate Lava Cake</h4>
+            <p class="card-text">
+              Light, flaky, and buttery.<br />
+              A timeless delight.<br />
+            <span class="price">$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
-        <div>
-          <img src="images/redVelvetCake.jpg" alt="Red Valvet Cake" />
-          <h4>Red Valvet Cake</h4>
-          <p>- Light, flaky, and buttery. A timeless delight.</p>
-          <p>$2.50</p>
-          <input type="submit" value="Order" />
+        <div class="card">
+          <img src="images/redVelvetCake.jpg" alt="Red Valvet Cake" class="card-img-top"/>
+          <div class="card-body">
+            <h4 class="card-title">Red Velvet Cake</h4>
+            <p class="card-text">
+              Light, flaky, and buttery.<br />
+              A timeless delight.<br />
+            <span class="price">$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
-        <div>
-          <img src="images/cheeseCake.jpg" alt="Cheese Cake" />
-          <h4>Cheese Cake</h4>
-          <p>- Light, flaky, and buttery. A timeless delight.</p>
-          <p>$2.50</p>
-          <input type="submit" value="Order" />
+        <div class="card">
+          <img src="images/cheeseCake.jpg" alt="Cheese Cake" class="card-img-top"/>
+          <div class="card-body">
+            <h4 class="card-title">Cheese Cake</h4>
+            <p class="card-text">
+              Light, flaky, and buttery.<br />
+              A timeless delight.<br />
+            <span class="price">$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
-        <div>
-          <img src="images/waffel.webp" alt="Waffel" />
-          <h4>Waffel</h4>
-          <p>- Light, flaky, and buttery. A timeless delight.</p>
-          <p>$2.50</p>
-          <input type="submit" value="Order" />
+        <div class="card">
+          <img src="images/waffel.webp" alt="Waffel" class="card-img-top"/>
+          <div class="card-body">
+            <h4 class="card-title">Waffel</h4>
+            <p class="card-text">
+              Light, flaky, and buttery.<br />
+              A timeless delight.<br />
+            <span class="price">$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- About us -->
+    <!-- About us
     <section id="aboutus">
       <h2>ABOUT US</h2>
       <p>Welcome to Serene Sips Café, where every cup tells a story!</p>
@@ -134,10 +231,10 @@
         magic that happens when passion meets a perfectly brewed cup of coffee
         at Serene Sips Café.
       </p>
-    </section>
+    </section> -->
 
     <!-- CONTACT US -->
-    <section id="contactus">
+    <!-- <section id="contactus">
       <h2>CONTACT US</h2>
       <p>
         We'd love to hear from you! Reach out to us with any questions,
@@ -160,11 +257,11 @@
           <input type="submit" value="Send Message" />
         </div>
       </form>
-    </section>
+    </section> -->
 
     <!-- Footer -->
-    <footer id="footer">
+    <!-- <footer id="footer">
       <p>copyright © 2024. All rights reserved.</p>
-    </footer>
+    </footer> -->
   </body>
 </html>
