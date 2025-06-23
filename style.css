@@ -49,3 +49,58 @@ nav a {
   border-radius: 8px;
   border: none;
 }
+
+#menulist1 {
+  border: 2px solid black;
+  width: 1500px;
+  height: 500px;
+  padding: 30px 0px;
+}
+#menulist2 {
+  border: 2px solid black;
+  width: 1500px;
+  height: 500px;
+  padding: 30px 0px;
+}
+.coffeeselection {
+  padding: 5px 0px;
+}
+.deliciousSnacks {
+  padding: 5px 0px;
+}
+.card {
+  border: 2px solid black;
+  width: 375px;
+  /* height: 400px; */
+
+  margin: 5px;
+  border-radius: 10px;
+}
+.card-img-top {
+  /* max-width: 100%; */
+  /* max-height: 100%; */
+}
+.card-body {
+  text-align: center;
+  padding: 10px;
+}
+.card-body .card-title {
+  padding: 10px 0;
+}
+.card-body .card-text {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-style: italic;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: burlywood;
+  cursor: pointer;
+}
