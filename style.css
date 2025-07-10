@@ -12,10 +12,13 @@
   text-align: center;
   /* border: 1px solid black; */
   padding: 50px 0;
+  background-image: url(images/coffee-shopimage.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 #header h1 {
   font-family: "Playfair Display SC", serif;
-
   font-size: 3rem;
 }
 #header p {
@@ -29,12 +32,15 @@
   color: white;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 /* navation section */
 nav {
   /* border: 1px solid black; */
   text-align: center;
   padding: 30px 0px;
+  position: sticky;
+  top: 0;
 }
 nav a {
   border: 1px solid black;
@@ -153,4 +159,12 @@ form div {
 footer p {
   text-align: center;
   font-size: 0.8rem;
+}
+
+#to-top {
+  border: 2px solid black;
+  color: white;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
