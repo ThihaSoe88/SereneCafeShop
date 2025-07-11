@@ -1,9 +1,14 @@
 /* resetting rules */
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* background-color: #f0e2c5; */
+}
+body {
   background-color: #f0e2c5;
   color: #48281a;
 }
@@ -37,6 +42,7 @@
 /* navation section */
 nav {
   /* border: 1px solid black; */
+
   text-align: center;
   padding: 30px 0px;
   position: sticky;
@@ -163,8 +169,11 @@ footer p {
 
 #to-top {
   border: 2px solid black;
-  color: white;
+  color: #48281a;
+}
+footer a {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  right: 20px;
+  bottom: 20px;
+  color: #48281a;
 }
